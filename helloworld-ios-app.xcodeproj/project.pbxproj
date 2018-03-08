@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		466FAF3F2051B314009B1AA1 /* OpportunityCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FAF3E2051B314009B1AA1 /* OpportunityCellTableViewCell.swift */; };
+		466FAF412051B35A009B1AA1 /* Opportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FAF402051B35A009B1AA1 /* Opportunity.swift */; };
+		466FAF432051CBEF009B1AA1 /* OpportunityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FAF422051CBEF009B1AA1 /* OpportunityDetailViewController.swift */; };
 		4845C37D1C495763002F80E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845C37C1C495763002F80E5 /* AppDelegate.swift */; };
-		4845C37F1C49576A002F80E5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845C37E1C49576A002F80E5 /* HomeViewController.swift */; };
+		4845C37F1C49576A002F80E5 /* OpportuntiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845C37E1C49576A002F80E5 /* OpportuntiesTableViewController.swift */; };
 		4845C3811C495774002F80E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4845C3801C495774002F80E5 /* Images.xcassets */; };
 		4845C3851C4957A4002F80E5 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4845C3841C4957A4002F80E5 /* fhconfig.plist */; };
 		48ED7C591C031A02000A368F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48ED7C581C031A02000A368F /* Storyboard.storyboard */; };
@@ -31,8 +34,11 @@
 
 /* Begin PBXFileReference section */
 		3DA57210507D2685686EAE1D /* Pods_helloworld_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloworld_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		466FAF3E2051B314009B1AA1 /* OpportunityCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityCellTableViewCell.swift; path = "helloworld-ios-app/OpportunityCellTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		466FAF402051B35A009B1AA1 /* Opportunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Opportunity.swift; path = "helloworld-ios-app/Opportunity.swift"; sourceTree = SOURCE_ROOT; };
+		466FAF422051CBEF009B1AA1 /* OpportunityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityDetailViewController.swift; path = "helloworld-ios-app/OpportunityDetailViewController.swift"; sourceTree = SOURCE_ROOT; };
 		4845C37C1C495763002F80E5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "helloworld-ios-app/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
-		4845C37E1C49576A002F80E5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "helloworld-ios-app/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4845C37E1C49576A002F80E5 /* OpportuntiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpportuntiesTableViewController.swift; path = "helloworld-ios-app/OpportuntiesTableViewController.swift"; sourceTree = SOURCE_ROOT; };
 		4845C3801C495774002F80E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "helloworld-ios-app/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		4845C3821C49579D002F80E5 /* helloworld-ios-app-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "helloworld-ios-app-Info.plist"; path = "helloworld-ios-app/helloworld-ios-app-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4845C3841C4957A4002F80E5 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = fhconfig.plist; path = "helloworld-ios-app/fhconfig.plist"; sourceTree = SOURCE_ROOT; };
@@ -93,7 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				4845C37C1C495763002F80E5 /* AppDelegate.swift */,
-				4845C37E1C49576A002F80E5 /* HomeViewController.swift */,
+				466FAF402051B35A009B1AA1 /* Opportunity.swift */,
+				466FAF3E2051B314009B1AA1 /* OpportunityCellTableViewCell.swift */,
+				4845C37E1C49576A002F80E5 /* OpportuntiesTableViewController.swift */,
+				466FAF422051CBEF009B1AA1 /* OpportunityDetailViewController.swift */,
 				48ED7C6E1C031F01000A368F /* LaunchScreen.storyboard */,
 				48ED7C581C031A02000A368F /* Storyboard.storyboard */,
 				4845C3801C495774002F80E5 /* Images.xcassets */,
@@ -188,6 +197,7 @@
 				TargetAttributes = {
 					48ED7C361C03192D000A368F = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Y36N92P4L8;
 						LastSwiftMigration = 0900;
 					};
 					886B2C4C1E77E0A3004F7DD8 = {
@@ -348,8 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466FAF432051CBEF009B1AA1 /* OpportunityDetailViewController.swift in Sources */,
+				466FAF3F2051B314009B1AA1 /* OpportunityCellTableViewCell.swift in Sources */,
+				466FAF412051B35A009B1AA1 /* Opportunity.swift in Sources */,
 				4845C37D1C495763002F80E5 /* AppDelegate.swift in Sources */,
-				4845C37F1C49576A002F80E5 /* HomeViewController.swift in Sources */,
+				4845C37F1C49576A002F80E5 /* OpportuntiesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y36N92P4L8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -506,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y36N92P4L8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
